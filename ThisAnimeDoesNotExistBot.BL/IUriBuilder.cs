@@ -2,7 +2,8 @@
 
 namespace ThisAnimeDoesNotExistBot.BL
 {
-  public class Class1
+  public interface IUriBuilder
   {
+    Uri BuildUri();
   }
 }

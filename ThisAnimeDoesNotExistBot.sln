@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisAnimeDoesNotExistBot", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisAnimeDoesNotExistBot.BL", "ThisAnimeDoesNotExistBot.BL\ThisAnimeDoesNotExistBot.BL.csproj", "{D9B9DADC-7B5C-490A-BC90-3AC5F2BB8F51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisAnimeDoesNotExistBot.BL.Tests", "ThisAnimeDoesNotExistBot.BL.Tests\ThisAnimeDoesNotExistBot.BL.Tests.csproj", "{F1E935AF-7272-4DA2-B5B9-B38622DE0795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D9B9DADC-7B5C-490A-BC90-3AC5F2BB8F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9B9DADC-7B5C-490A-BC90-3AC5F2BB8F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9B9DADC-7B5C-490A-BC90-3AC5F2BB8F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E935AF-7272-4DA2-B5B9-B38622DE0795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E935AF-7272-4DA2-B5B9-B38622DE0795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E935AF-7272-4DA2-B5B9-B38622DE0795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E935AF-7272-4DA2-B5B9-B38622DE0795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
