@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisAnimeDoesNotExistBot", "ThisAnimeDoesNotExistBot\ThisAnimeDoesNotExistBot.csproj", "{EB997808-6ECA-4F4A-8020-ED652BFB5547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisAnimeDoesNotExistBot.BL", "ThisAnimeDoesNotExistBot.BL\ThisAnimeDoesNotExistBot.BL.csproj", "{D9B9DADC-7B5C-490A-BC90-3AC5F2BB8F51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB997808-6ECA-4F4A-8020-ED652BFB5547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB997808-6ECA-4F4A-8020-ED652BFB5547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB997808-6ECA-4F4A-8020-ED652BFB5547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB997808-6ECA-4F4A-8020-ED652BFB5547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B9DADC-7B5C-490A-BC90-3AC5F2BB8F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B9DADC-7B5C-490A-BC90-3AC5F2BB8F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B9DADC-7B5C-490A-BC90-3AC5F2BB8F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B9DADC-7B5C-490A-BC90-3AC5F2BB8F51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
