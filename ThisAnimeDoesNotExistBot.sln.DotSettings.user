@@ -1,4 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=068807fd_002Dcd29_002D432d_002D8261_002D7828586d142f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;ThisAnimeDoesNotExistBot.BL.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Project Location="C:\Users\shabashab\RiderProjects\ThisAnimeDoesNotExistBot\ThisAnimeDoesNotExistBot.BL.Tests" Presentation="&amp;lt;ThisAnimeDoesNotExistBot.BL.Tests&amp;gt;" /&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::F1E935AF-7272-4DA2-B5B9-B38622DE0795::.NETFramework,Version=v4.8::ThisAnimeDoesNotExistBot.BL.Tests.UriBuilderTests.ImageUriBuilderTest&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2a9ac234_002D7fae_002D4803_002D82fa_002D93ac8e4ff490/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Validate_ValueNumbersCountHigher_ReturnFalse" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::F1E935AF-7272-4DA2-B5B9-B38622DE0795::.NETFramework,Version=v4.8::ThisAnimeDoesNotExistBot.BL.Tests.IntegerNumbersCountValidatorTest.Validate_ValueNumbersCountHigher_ReturnFalse&lt;/TestId&gt;&#xD;
@@ -6,6 +14,11 @@
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4a4465fe_002Dba7d_002D4353_002Db143_002D8a298d4fbf20/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Validate_ValueNumbersCountHigherFixedCases_ReturnFalse" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Project Location="C:\Users\shabashab\RiderProjects\ThisAnimeDoesNotExistBot\ThisAnimeDoesNotExistBot.BL.Tests" Presentation="&amp;lt;ThisAnimeDoesNotExistBot.BL.Tests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=58288da7_002D1fa2_002D4126_002D8f59_002D1826e9516aed/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UintNumbersCountValidatorTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F1E935AF-7272-4DA2-B5B9-B38622DE0795::.NETFramework,Version=v4.8::ThisAnimeDoesNotExistBot.BL.Tests.ValidatorsTests.NumbersCountValidatorsTests.IntegerNumbersCountValidatorTest.UintNumbersCountValidatorTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cc19b7ef_002D8179_002D43b9_002Dacac_002D3d90f962f3d4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Validate_ValueNumbersCountHigherFixedCases_ReturnFalse #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;

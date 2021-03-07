@@ -1,17 +1,17 @@
-﻿using ThisAnimeDoesNotExistBot.BL.Validators.NumbersCountValidators.IntegerNumbersCountValidator;
+﻿using ThisAnimeDoesNotExistBot.BL.Validators.NumbersCountValidators;
 
 namespace ThisAnimeDoesNotExistBot.BL.Validators
 {
-  public class SeedValidator : ISeedValidator 
+  public class SeedValidator : IValidator<uint>
   {
-    private readonly IValidator<int> _numbersCountValidator; 
+    private readonly UIntNumbersCountValidator _numbersCountValidator; 
     
     public SeedValidator()
     {
-      _numbersCountValidator = new IntegerNumbersCountValidator(5);
+      _numbersCountValidator = new UIntNumbersCountValidator(5);
     }
     
-    public bool Validate(int inputValue)
+    public bool Validate(uint inputValue)
     {
       return this._numbersCountValidator.Validate(inputValue);
     }

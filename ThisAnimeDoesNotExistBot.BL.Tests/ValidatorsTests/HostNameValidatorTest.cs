@@ -7,19 +7,20 @@ namespace ThisAnimeDoesNotExistBot.BL.Tests.ValidatorsTests
   [TestFixture]
   public class HostNameValidatorTest
   {
-    private IValidator<string> CreateValidator()
-    {
-      return new HostNameValidator();
-    }
+    private IValidator<string> _validator;
 
+    [SetUp]
+    public void Setup()
+    {
+      _validator = new HostNameValidator(); 
+    }
+    
     [Test]
     public void Validate_IncorrectHostName_ReturnFalse()
     {
       const string incorrectHostName = "localhost";
 
-      var validator = CreateValidator();
-
-      var result = validator.Validate(incorrectHostName);
+      var result = _validator.Validate(incorrectHostName);
 
       Assert.IsFalse(result, $"{incorrectHostName} shouldn't be valid because it doesn't have https://");
     }
@@ -30,9 +31,7 @@ namespace ThisAnimeDoesNotExistBot.BL.Tests.ValidatorsTests
     {
       const string correctHostName = "https://localhost";
 
-      var validator = CreateValidator();
-
-      var result = validator.Validate(correctHostName);
+      var result = _validator.Validate(correctHostName);
       
       Assert.IsTrue(result, $"{correctHostName} should be valid");
     }

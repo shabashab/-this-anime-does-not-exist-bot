@@ -2,18 +2,18 @@
 
 namespace ThisAnimeDoesNotExistBot.BL.Validators
 {
-  public class CreativityLevelValidator : ICreativityLevelValidator 
+  public class CreativityLevelValidator : IValidator<uint>
   {
-    private readonly BaseIntegerRangeValidator _rangeValidator;
+    private readonly IRangeValidator<uint> _rangeValidator;
     
     public CreativityLevelValidator()
     {
-      this._rangeValidator = new IntegerRangeValidator(3, 20);
+      _rangeValidator = new UIntRangeValidator(3, 20);
     } 
     
-    public bool Validate(int inputValue)
+    public bool Validate(uint inputValue)
     {
-      return this._rangeValidator.Validate(inputValue);
+      return _rangeValidator.Validate(inputValue);
     }
   }
 }

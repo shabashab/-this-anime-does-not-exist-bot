@@ -1,8 +1,9 @@
 ﻿using System;
+using ThisAnimeDoesNotExistBot.BL.Types.Interfaces;
 
 namespace ThisAnimeDoesNotExistBot.BL.Validators
 {
-  public class HostNameValidator : IHostNameValidator
+  public class HostNameValidator : IValidator<string>
   {
     public bool Validate(string inputValue)
     {
@@ -11,7 +12,7 @@ namespace ThisAnimeDoesNotExistBot.BL.Validators
         var uri = new Uri(inputValue);
         return true;
       }
-      catch (UriFormatException e)
+      catch (UriFormatException)
       {
         return false;
       }
