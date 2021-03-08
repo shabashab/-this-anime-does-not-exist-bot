@@ -1,8 +1,7 @@
 ﻿using NUnit.Framework;
-using ThisAnimeDoesNotExistBot.BL.Builders;
-using ThisAnimeDoesNotExistBot.BL.Builders.Interfaces;
+using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder;
+using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder.Interfaces;
 using ThisAnimeDoesNotExistBot.BL.Types;
-using ThisAnimeDoesNotExistBot.BL.Validators;
 
 namespace ThisAnimeDoesNotExistBot.BL.Tests.UriBuilderTests
 {
@@ -14,7 +13,7 @@ namespace ThisAnimeDoesNotExistBot.BL.Tests.UriBuilderTests
     [SetUp]
     public void Setup()
     {
-      _builder = new ImageUriBuilder(
+      _builder = new ImageUriBuilder.ImageUriBuilder(
         new ImageUriBaseBuilder(), new CreativityPathBuilder(), new SeedPathBuilder());
     }
 

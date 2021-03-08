@@ -1,9 +1,7 @@
 ﻿using System.Text;
-using ThisAnimeDoesNotExistBot.BL.Builders.Interfaces;
-using ThisAnimeDoesNotExistBot.BL.Types;
-using ThisAnimeDoesNotExistBot.BL.Types.Interfaces;
+using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder.Interfaces;
 
-namespace ThisAnimeDoesNotExistBot.BL.Builders
+namespace ThisAnimeDoesNotExistBot.BL.ImageUriBuilder
 {
   public class CreativityPathBuilder : ICreativityPathBuilder
   {

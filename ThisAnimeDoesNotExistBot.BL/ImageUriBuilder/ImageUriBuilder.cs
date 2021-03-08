@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Text;
-using ThisAnimeDoesNotExistBot.BL.Builders.Interfaces;
+using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder.Interfaces;
 using ThisAnimeDoesNotExistBot.BL.Types.Interfaces;
 
-namespace ThisAnimeDoesNotExistBot.BL.Builders
+namespace ThisAnimeDoesNotExistBot.BL.ImageUriBuilder
 {
   public class ImageUriBuilder : IImageUriBuilder
   {
@@ -11,23 +10,24 @@ namespace ThisAnimeDoesNotExistBot.BL.Builders
     private readonly ICreativityPathBuilder _creativityPathBuilder;
     private readonly ISeedPathBuilder _seedPathBuilder;
 
-
-    public Uri Build(IGeneratorParameters generatorParameters, IWebPagePath basePagePath)
-    {
-      string uriString = "";
-
-      uriString += _baseBuilder.Build(basePagePath);
-      uriString += _creativityPathBuilder.Build(generatorParameters.CreativityLevel);
-      uriString += _seedPathBuilder.Build(generatorParameters.GenerationSeed);
-      
-      return new Uri(uriString, UriKind.Absolute);
-    }
-
-    public ImageUriBuilder(IImageUriBaseBuilder baseBuilder, ICreativityPathBuilder creativityPathBuilder, ISeedPathBuilder seedPathBuilder)
+    public ImageUriBuilder(IImageUriBaseBuilder baseBuilder, ICreativityPathBuilder creativityPathBuilder,
+      ISeedPathBuilder seedPathBuilder)
     {
       _baseBuilder = baseBuilder;
       _creativityPathBuilder = creativityPathBuilder;
       _seedPathBuilder = seedPathBuilder;
+    }
+
+
+    public Uri Build(IGeneratorParameters generatorParameters, IWebPagePath basePagePath)
+    {
+      var uriString = "";
+
+      uriString += _baseBuilder.Build(basePagePath);
+      uriString += _creativityPathBuilder.Build(generatorParameters.CreativityLevel);
+      uriString += _seedPathBuilder.Build(generatorParameters.GenerationSeed);
+
+      return new Uri(uriString, UriKind.Absolute);
     }
   }
 }

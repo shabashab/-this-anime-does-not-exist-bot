@@ -1,6 +1,6 @@
 ﻿using ThisAnimeDoesNotExistBot.BL.Types.Interfaces;
 
-namespace ThisAnimeDoesNotExistBot.BL.Builders.Interfaces
+namespace ThisAnimeDoesNotExistBot.BL.ImageUriBuilder.Interfaces
 {
   public interface IImageUriBaseBuilder
   {

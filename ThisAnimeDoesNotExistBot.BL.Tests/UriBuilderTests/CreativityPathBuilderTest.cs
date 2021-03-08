@@ -1,8 +1,6 @@
 ﻿using NUnit.Framework;
-using ThisAnimeDoesNotExistBot.BL.Builders;
-using ThisAnimeDoesNotExistBot.BL.Builders.Interfaces;
-using ThisAnimeDoesNotExistBot.BL.Types;
-using ThisAnimeDoesNotExistBot.BL.Validators;
+using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder;
+using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder.Interfaces;
 
 namespace ThisAnimeDoesNotExistBot.BL.Tests.UriBuilderTests
 {

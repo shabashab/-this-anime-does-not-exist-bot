@@ -1,10 +1,8 @@
-﻿using System;
-using System.Text;
-using ThisAnimeDoesNotExistBot.BL.Builders.Interfaces;
-using ThisAnimeDoesNotExistBot.BL.Types;
+﻿using System.Text;
+using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder.Interfaces;
 using ThisAnimeDoesNotExistBot.BL.Types.Interfaces;
 
-namespace ThisAnimeDoesNotExistBot.BL.Builders
+namespace ThisAnimeDoesNotExistBot.BL.ImageUriBuilder
 {
   public class ImageUriBaseBuilder : IImageUriBaseBuilder
   {

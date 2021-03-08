@@ -1,4 +1,4 @@
-﻿using ThisAnimeDoesNotExistBot.BL.Builders.Interfaces;
+﻿using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder.Interfaces;
 
 namespace ThisAnimeDoesNotExistBot.BL.Types.Interfaces
 {
