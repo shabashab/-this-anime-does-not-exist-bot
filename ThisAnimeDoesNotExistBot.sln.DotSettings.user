@@ -12,6 +12,11 @@
     &lt;TestId&gt;NUnit3x::F1E935AF-7272-4DA2-B5B9-B38622DE0795::.NETFramework,Version=v4.8::ThisAnimeDoesNotExistBot.BL.Tests.IntegerNumbersCountValidatorTest.Validate_ValueNumbersCountHigher_ReturnFalse&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3f11ba5a_002D1d6f_002D45e8_002D8321_002D976875dc6afe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LoadByUri_IncorrectContentType_ThrowsWebException" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F1E935AF-7272-4DA2-B5B9-B38622DE0795::.NETFramework,Version=v4.8::ThisAnimeDoesNotExistBot.BL.Tests.ImageLoader.HttpImageLoaderTest.LoadByUri_IncorrectContentType_ThrowsWebException&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4a4465fe_002Dba7d_002D4353_002Db143_002D8a298d4fbf20/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Validate_ValueNumbersCountHigherFixedCases_ReturnFalse" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Project Location="C:\Users\shabashab\RiderProjects\ThisAnimeDoesNotExistBot\ThisAnimeDoesNotExistBot.BL.Tests" Presentation="&amp;lt;ThisAnimeDoesNotExistBot.BL.Tests&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>

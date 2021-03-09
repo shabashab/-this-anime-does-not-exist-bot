@@ -2,7 +2,7 @@
 using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder;
 using ThisAnimeDoesNotExistBot.BL.ImageUriBuilder.Interfaces;
 
-namespace ThisAnimeDoesNotExistBot.BL.Tests.UriBuilderTests
+namespace ThisAnimeDoesNotExistBot.BL.Tests.ImageUriBuilderTests
 {
   [TestFixture]
   public class CreativityPathBuilderTest
